@@ -13,8 +13,14 @@ Most of the logic is in the file `./src/pages/Page.js`
 
 <br>
 
-## Data fetched from:
+## Data fetched from
 
 ```
 ./public/data.json
 ```
+
+## Setup
+
+`npm install`
+
+`npm start`
