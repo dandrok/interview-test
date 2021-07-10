@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-orange: #fb8500;
+  --color-white: #ffffff;
+  --color-blue-light: #8ecae6;
+  --color-blue-medium: #219ebc;
+  --color-blue-dark: #023047;
+  --color-black: #000000;
+
+  --font-roboto: 'Roboto', sans-serif;
+  --font-architects-daughter: 'Architects Daughter', cursive;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+
+  --font-size-12: 0.75rem;
+  --font-size-14: 0.875rem;
+  --font-size-16: 1rem;
+  --font-size-18: 1.125rem;
+  --font-size-24: 1.5rem;
+
+  --font-awesome: 20px;
+
+  --margin: 1.25rem;
+}
+
+body {
+  font-family: var(--font-roboto);
+  overflow-y: scroll;
+}

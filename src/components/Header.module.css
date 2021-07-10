@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 548px;
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-light);
+  border-bottom: solid 2px var(--color-blue-light);
+  padding-bottom: 0.5px;
+}
+
+.flex__icon {
+  font-size: var(--font-awesome);
+  color: var(--color-blue-medium);
+}
+
+.flex__user {
+  user-select: none;
+}

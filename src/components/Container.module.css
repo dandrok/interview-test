@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(548px, 1fr));
+  /* align-items: center;
+  justify-items: center; */
+  /* justify-items: start; */
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 548px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1111px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 1111px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

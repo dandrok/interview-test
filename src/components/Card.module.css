@@ -1,0 +1,77 @@
+.card {
+  border: solid var(--color-blue-light) 1px;
+  padding: 1rem;
+  max-width: 360px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__icon {
+  color: var(--color-blue-medium);
+  font-size: var(--font-awesome);
+}
+
+.card__author {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-light);
+}
+
+.card__price {
+  font-size: var(--font-size-16);
+  background: var(--color-blue-dark);
+  padding: 9px 20px;
+  border-radius: 20px;
+  color: var(--color-white);
+  position: relative;
+  bottom: 2rem;
+  font-weight: var(--font-weight-regular);
+}
+
+.card__first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card__title {
+  font-family: var(--font-architects-daughter);
+  font-size: var(--font-size-18);
+  margin-top: var(--margin);
+  font-weight: var(--font-weight-regular);
+}
+
+.card__desc {
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  width: 328px;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  margin-top: var(--margin);
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-light);
+}
+
+.card__tags {
+  display: flex;
+  margin-top: var(--margin);
+}
+.card__tag:nth-child(2) {
+  margin: 0 10px;
+}
+
+.card__tag {
+  border-radius: 15px;
+  background: var(--color-orange);
+  padding: 0.5rem 1rem;
+  font-size: var(--font-size-12);
+  color: var(--color-white);
+}
